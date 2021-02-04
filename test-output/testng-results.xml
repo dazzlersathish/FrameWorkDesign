@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6649" started-at="2021-01-13T19:29:42 IST" finished-at="2021-01-13T19:29:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6649" started-at="2021-01-13T19:29:42 IST" finished-at="2021-01-13T19:29:49 IST">
+      <class name="TestScript.TestDriver">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestScript.TestDriver@101df177]" name="startBrowser" is-config="true" duration-ms="6580" started-at="2021-01-13T19:29:42 IST" finished-at="2021-01-13T19:29:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:TestScript.TestDriver@101df177]" name="testTitle" duration-ms="15" started-at="2021-01-13T19:29:49 IST" finished-at="2021-01-13T19:29:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+      </class> <!-- TestScript.TestDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
