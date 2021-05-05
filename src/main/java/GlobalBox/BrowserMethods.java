@@ -18,7 +18,7 @@ public class BrowserMethods
 	public static ChromeDriverService chromeDriverService ;
 	
 	@SuppressWarnings("deprecation")
-	public static void initializeBrowserDriver()
+	public static void initializeBrowserDriver() throws Exception
 	{
 	String browsername = CommonMethods.readPropertiesFile("inputdata.properties", "browser");
 	switch(browsername)
@@ -49,6 +49,7 @@ public class BrowserMethods
 		chromecap.setJavascriptEnabled(true);
 		driver = new ChromeDriver(chromeDriverService, chromecap);
 		WaitMethods.waitInitializerFordriver();
+		ScreenshotMethod.initializeScreenshot("Test Report");
 		} 
 		catch (IOException e) {
 			

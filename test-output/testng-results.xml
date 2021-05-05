@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6649" started-at="2021-01-13T19:29:42 IST" finished-at="2021-01-13T19:29:49 IST">
+  <suite name="Default suite" duration-ms="23967" started-at="2021-04-21T14:51:57 IST" finished-at="2021-04-21T14:52:21 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6649" started-at="2021-01-13T19:29:42 IST" finished-at="2021-01-13T19:29:49 IST">
+    <test name="Default test" duration-ms="23967" started-at="2021-04-21T14:51:57 IST" finished-at="2021-04-21T14:52:21 IST">
       <class name="TestScript.TestDriver">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestScript.TestDriver@101df177]" name="startBrowser" is-config="true" duration-ms="6580" started-at="2021-01-13T19:29:42 IST" finished-at="2021-01-13T19:29:49 IST">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:TestScript.TestDriver@32a068d1]" name="startBrowser" is-config="true" duration-ms="4342" started-at="2021-04-21T14:51:57 IST" finished-at="2021-04-21T14:52:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="testTitle()[pri:0, instance:TestScript.TestDriver@101df177]" name="testTitle" duration-ms="15" started-at="2021-01-13T19:29:49 IST" finished-at="2021-01-13T19:29:49 IST">
+        <test-method status="PASS" signature="testTitle()[pri:0, instance:TestScript.TestDriver@32a068d1]" name="testTitle" duration-ms="18080" started-at="2021-04-21T14:52:02 IST" finished-at="2021-04-21T14:52:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="releaseResource()[pri:0, instance:TestScript.TestDriver@32a068d1]" name="releaseResource" is-config="true" duration-ms="1505" started-at="2021-04-21T14:52:20 IST" finished-at="2021-04-21T14:52:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseResource -->
       </class> <!-- TestScript.TestDriver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
